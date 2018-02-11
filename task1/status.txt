@@ -3,3 +3,6 @@ status.txt
 task1/
 
 task1/
+
+On branch master
+nothing to commit, working tree clean
