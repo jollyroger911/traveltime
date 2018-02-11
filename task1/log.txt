@@ -1,0 +1,11 @@
+commit 5d2e367ccb0fb54389ab03f537368424bb9f73ac (HEAD -> master)
+Author: Anton Klimovich <anton.klim911@gmail.com>
+Date:   Sun Feb 11 19:54:05 2018 +0300
+
+    add status.txt
+
+commit 82fd3e9facb1c35f476fbccd70900d9ef5d9b2b1
+Author: Anton Klimovich <anton.klim911@gmail.com>
+Date:   Sun Feb 11 19:50:29 2018 +0300
+
+    add .gitignore
