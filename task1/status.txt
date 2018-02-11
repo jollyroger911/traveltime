@@ -1,0 +1,5 @@
+.gitignore
+status.txt
+task1/
+
+task1/
