@@ -5,7 +5,7 @@ var photoPosts =[
     descriprion: 'Our greate trip last summer! Great times!!!',
     createdAt: new Date('2018-02-23T23:00:00'),
     author: 'traveller@introfog',
-    photoLink: 'pic1.jpg'
+    photoLink: 'Photos\\pic1.jpg'
    },
 
    {
@@ -13,132 +13,132 @@ var photoPosts =[
 	descriprion: "What a nice view!!",
     createdAt: new Date ("2018-02-12T17:22:00"),
 	author: "traveller@123muzik",
-	photoLink: "pic2.jpg"
+	photoLink: "Photos\\pic2.jpg"
    },
 	{
     id: '3',
 	descriprion: "so much love to mountains",
     createdAt: new Date ("2018-02-13T17:12:00"),
 	author: "traveller@winnythepooh",
-	photoLink: "pic3.jpg"
+	photoLink: "Photos\\pic3.jpg"
    },
     {
     id: '4',
 	descriprion: "Almost jungles!",
     createdAt: new Date ("2018-03-11T15:22:00"),
 	author: "traveller@jjhonny",
-	photoLink: "pic4.jpg"
+	photoLink: "Photos\\pic4.jpg"
    },
     {
     id: '5',
 	descriprion: "Snail. I call him Garry",
     createdAt: new Date ("2018-03-12T13:22:00"),
 	author: "traveller@markjh",
-	photoLink: "pic5.jpg"
+	photoLink: "Photos\\pic5.jpg"
    },
     {
     id: '6',
 	descriprion: "Give me the right direction, Sailor!",
     createdAt: new Date ("2018-03-13T10:20:00"),
 	author: "traveller@bingolike",
-	photoLink: "pic6.jpg"
+	photoLink: "Photos\\pic6.jpg"
    },
     {
     id: '7',
 	descriprion: "Мандариновый закат",
     createdAt: new Date ("2018-03-14T10:24:00"),
 	author: "traveller@julia",
-	photoLink: "pic7.jpg"
+	photoLink: "Photos\\pic7.jpg"
    },
     {
     id: '8',
 	descriprion: "Nightroad to mountains",
     createdAt: new Date ("2018-03-14T14:22:00"),
 	author: "traveller@123muzik",
-	photoLink: "pic8.jpg"
+	photoLink: "Photos\\pic8.jpg"
    },
     {
     id: '9',
 	descriprion: "pinky winter",
     createdAt: new Date ("2018-03-14T16:32:00"),
 	author: "traveller@123muzik",
-	photoLink: "pic9.jpg"
+	photoLink: "Photos\\pic9.jpg"
    },
     {
     id: '10',
 	descriprion: "colorfully grey spb",
     createdAt: new Date ("2018-03-15T11:53:00"),
 	author: "traveller@123muzik",
-	photoLink: "pic10.jpg"
+	photoLink: "Photos\\pic10.jpg"
    },
     {
     id: '11',
 	descriprion: "Sneakers parachuting",
     createdAt: new Date ("2018-03-15T11:55:00"),
 	author: "explorer@drgonzo",
-	photoLink: "pic11.jpg"
+	photoLink: "Photos\\pic11.jpg"
    },
     {
     id: '12',
 	descriprion: "Crazy winter fooking cold",
     createdAt: new Date ("2018-03-15T11:53:00"),
 	author: "traveller@gbordello",
-	photoLink: "pic12.jpg"
+	photoLink: "Photos\\pic12.jpg"
    },
     {
     id: '13',
 	descriprion: "Christofore Columb",
     createdAt: new Date ("2018-03-16T11:54:00"),
 	author: "traveller@gunsmaster",
-	photoLink: "pic13.jpg"
+	photoLink: "Photos\\pic13.jpg"
    },
     {
     id: '14',
 	descriprion: "Good reaction!",
     createdAt: new Date ("2018-03-16T11:52:00"),
 	author: "traveller@sugarfree",
-	photoLink: "pic14.jpg"
+	photoLink: "Photos\\pic14.jpg"
    },
     {
     id: '15',
 	descriprion: "Aligator!",
     createdAt: new Date ("2018-03-16T12:53:00"),
 	author: "traveller@steveee",
-	photoLink: "pic15.jpg"
+	photoLink: "Photos\\pic15.jpg"
    },
     {
     id: '16',
 	descriprion: "Resty",
     createdAt: new Date ("2018-03-16T13:57:00"),
 	author: "traveller@chillingparting",
-	photoLink: "pic16.jpg"
+	photoLink: "Photos\\pic16.jpg"
    },
     {
     id: '17',
 	descriprion: "Splash!",
     createdAt: new Date ("2018-03-16T14:58:00"),
 	author: "traveller@sailor",
-	photoLink: "pic17.jpg"
+	photoLink: "Photos\\pic17.jpg"
    },
     {
     id: '18',
 	descriprion: "Green boulevar",
     createdAt: new Date ("2018-03-16T16:19:00"),
 	author: "traveller@sailor",
-	photoLink: "pic18.jpg"
+	photoLink: "Photos\\pic18.jpg"
    },
     {
     id: '19',
 	descriprion: "Waterfall miricle",
     createdAt: new Date ("2018-03-16T16:20:00"),
 	author: "explorer@advanture",
-	photoLink: "pic19.jpg"
+	photoLink: "Photos\\pic19.jpg"
    }, {
     id: '20',
 	descriprion: "Slippery beaty",
     createdAt: new Date ("2018-03-16T16:23:00"),
 	author: "traveller@dipsy",
-	photoLink: "pic20.jpg"
+	photoLink: "Photos\\pic20.jpg"
     }
 ];
     var getPhotoPosts = function (skip, top, filterConfig) {
@@ -275,7 +275,7 @@ function run() {
         description: 'rainny',
         createdAt: new Date('2018-02-23T23:00:00'),
         author: 2,
-        photoLink: 'pic21.jpg'
+        photoLink: 'Photos\\pic21.jpg'
     }));
 
     console.log("\nadd photo post\n");
@@ -284,7 +284,7 @@ function run() {
         description: 'rainny',
         createdAt: new Date('1890-02-23T23:00:00'),
         author: 'Vicor',
-        photoLink: 'pic21.jpg'
+        photoLink: 'Photos\\pic21.jpg'
     });
     console.log("After post adding");
     module.getPhotoPosts().forEach(function (value) {
